@@ -1,4 +1,4 @@
-<h1 align="center">Testing Code Hub</h1>
+<h1 align="center">Digital.ai Testing Code Hub</h1>
 
 <p align="center">
   Code examples, framework integrations, and tools for testing with <a href="https://digital.ai/products/continuous-testing/"><strong>Digital.ai Testing</strong></a>.<br>
