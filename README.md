@@ -1,5 +1,3 @@
-![Digital.ai Testing](assets/digital-ai-testing-logo.png)
-
 <h1 align="center">Testing Code Hub</h1>
 
 <p align="center">
