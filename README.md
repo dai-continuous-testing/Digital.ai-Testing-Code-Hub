@@ -1,19 +1,169 @@
-# Community-Best-Practices-and-Contributions
+![Digital.ai Testing](assets/digital-ai-testing-logo.png)
 
-![image](https://github.com/ExperitestOfficial/Community-Contributions/assets/71343050/c8ef2a82-84ef-48ea-b4eb-da66c94efe41)
+<h1 align="center">Testing Code Hub</h1>
 
-This page is dedicated to consolidate available automation projects created for the community, the projects will be in various frameworks and programming languages, as well as include best practices.
+<p align="center">
+  Code examples, framework integrations, and tools for testing with <a href="https://digital.ai/products/continuous-testing/"><strong>Digital.ai Testing</strong></a>.<br>
+  Find what fits your workflow and build from there.
+</p>
 
-## Mobile Examples
+## What do you want to do?
 
-[Robot Framework w/ Python - Reporter Customization](https://github.com/ExperitestOfficial/ct-robot-framework-daimobile) - This repository is built on Python using Robot as the Test Automation Framework. To take it one step further, this project has best practices embedded to best utilize the built in Reporter in the Digital.ai Continuous Testing platform to improve reporting accuracy, customize the video reports, and add properties for filtering purposes afterwards.
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="33%">Solve a testing problem</th>
+      <th align="left" width="33%">Connect your framework</th>
+      <th align="left" width="33%">Add a testing tool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" width="33%">Find examples built around a specific testing scenario.</td>
+      <td valign="top" width="33%">Explore how your framework works with Digital.ai Testing.</td>
+      <td valign="top" width="33%">Find utilities for your testing workflow.</td>
+    </tr>
+    <tr>
+      <td width="33%"><a href="#use-cases">Explore use cases →</a></td>
+      <td width="33%"><a href="#integrations">Explore integrations →</a></td>
+      <td width="33%"><a href="#tools">Explore tools →</a></td>
+    </tr>
+  </tbody>
+</table>
 
-[.NET Framework - BDD Framework with SpecFlow and NUnit ](https://github.com/ExperitestOfficial/ct-specflow-nunit-bdd-bp) - This repository provides a boilerplate example on what is required to setup a Test Automation Framework using BDD Framework SpecFlow, using NUnit to run the tests.
+## Explore the catalog
 
-[AI-Powered Self Healing Tests](https://github.com/ExperitestOfficial/CT-Self-Healing-Tests) - This repository provided examples into how tests with and without AI-Powered Self Healing affects the outcome. A step by step guide that can be used to get started quickly.
+Browse by purpose, then check the technology details to find the right starting point.
 
-[Jenkins - Using Continuous Testing APIs with Groovy Scripting](https://github.com/ExperitestOfficial/CT-Jenkins-Example-With-Pipeline-Scripting) - This repository goes over an example of how a Jenkins job may be leveraged in form of Pipeline with Groovy Scripting to leverage APIs from the Digital.ai Continuous Testing platform and get the test results back from the Automated Test executions.
+### Use cases
 
-## Cross Browser Examples
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="46%">What it helps you do</th>
+      <th align="left" width="18%">Technology</th>
+      <th align="left" width="12%">Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" width="24%">
+        <a href="https://github.com/ExperitestOfficial/ct-robot-framework-daimobile"><strong>Reporter Customization with Robot Framework</strong></a>
+      </td>
+      <td valign="top" width="46%">Customize Digital.ai test reports with Robot Framework and Python: improve reporting accuracy, tailor video reports, and add properties for filtering results.</td>
+      <td valign="top" width="18%">Robot Framework · Python</td>
+      <td valign="top" width="12%">Mobile</td>
+    </tr>
+    <tr>
+      <td valign="top" width="24%">
+        <a href="https://github.com/ExperitestOfficial/CT-Self-Healing-Tests"><strong>AI-Powered Self-Healing Tests</strong></a>
+      </td>
+      <td valign="top" width="46%">Compare test behavior with and without AI-powered self-healing, with a step-by-step guide to getting started.</td>
+      <td valign="top" width="18%">Java · TestNG · Maven</td>
+      <td valign="top" width="12%">Mobile</td>
+    </tr>
+  </tbody>
+</table>
 
-[Axe Integration with Cross Browser](https://github.com/ExperitestOfficial/CT-Axe-Integration-Cross-Browser) - This repository provides a basic example of how one can leverage Deque Axe's libraries to scan web pages, identify violations and have that part of the reports generated in Digital.ai's Continuous Testing platform.
+### Integrations
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="46%">What it helps you do</th>
+      <th align="left" width="18%">Technology</th>
+      <th align="left" width="12%">Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" width="24%">
+        <a href="https://github.com/ExperitestOfficial/ct-specflow-nunit-bdd-bp"><strong>BDD with SpecFlow and NUnit</strong></a>
+      </td>
+      <td valign="top" width="46%">Set up a .NET test automation project using SpecFlow for behavior-driven development and NUnit to execute tests.</td>
+      <td valign="top" width="18%">.NET · SpecFlow · NUnit</td>
+      <td valign="top" width="12%">Mobile</td>
+    </tr>
+    <tr>
+      <td valign="top" width="24%">
+        <a href="https://github.com/ExperitestOfficial/CT-Jenkins-Example-With-Pipeline-Scripting"><strong>Jenkins Pipeline with Groovy</strong></a>
+      </td>
+      <td valign="top" width="46%">Use a Jenkins Pipeline and Groovy scripting to call Digital.ai Continuous Testing APIs and retrieve automated test execution results.</td>
+      <td valign="top" width="18%">Jenkins · Groovy</td>
+      <td valign="top" width="12%">Mobile</td>
+    </tr>
+    <tr>
+      <td valign="top" width="24%">
+        <a href="https://github.com/ExperitestOfficial/CT-Axe-Integration-Cross-Browser"><strong>Web Accessibility with Deque axe</strong></a>
+      </td>
+      <td valign="top" width="46%">Scan web pages with Deque axe libraries, identify accessibility violations, and include the findings in Digital.ai Continuous Testing reports.</td>
+      <td valign="top" width="18%">Java · TestNG · Maven</td>
+      <td valign="top" width="12%">Web</td>
+    </tr>
+  </tbody>
+</table>
+
+### Tools
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="46%">What it helps you do</th>
+      <th align="left" width="18%">Technology</th>
+      <th align="left" width="12%">Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+  <td valign="top" width="24%">
+    <a href="https://github.com/digitalai-opensource/digital-ai-testing-mcp"><strong>digital-ai-testing-mcp</strong></a>
+  </td>
+  <td valign="top" width="46%">Connect compatible AI assistants to your Digital.ai Testing device farm. Ask questions and perform supported actions in plain language.</td>
+  <td valign="top" width="18%">MCP</td>
+  <td valign="top" width="12%">Mobile &amp; Web</td>
+</tr>
+    <tr>
+      <td valign="top" width="24%">
+        <strong>Test Orchestrator</strong><br>
+        <em>Repository link pending</em>
+      </td>
+      <td valign="top" width="46%">Define test execution behavior through configuration alongside your existing tests.</td>
+      <td valign="top" width="18%">Java · TestNG · Gradle</td>
+      <td valign="top" width="12%">Mobile</td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+<summary><strong>How the collection is organized</strong></summary>
+
+| Prefix | What belongs here | Examples |
+| :--- | :--- | :--- |
+| `UseCase-` | An example demonstrating a specific testing scenario. | Reporting customization; self-healing tests |
+| `Integration-` | Examples connecting a framework or external system to Digital.ai Testing. | SpecFlow and NUnit; Jenkins; Deque axe |
+| `Tool-` | A product utility that supports testing work. | Test Orchestrator |
+
+Languages, frameworks, and platforms are separate attributes. A Java example can belong to any of these categories. Category describes the project’s main purpose.
+
+</details>
+
+## Using the code
+
+1. **Choose a project.** Find a relevant use case, integration, or tool.
+2. **Check its requirements.** Read the repository’s setup instructions and supported versions.
+3. **Try it in your environment.** Configure the required connections and follow the example.
+
+Each repository’s README is the starting point for setup, expected results, and troubleshooting.
+
+---
+
+Check each repository for its license, maintenance status, and support information.
+
+<hr>
+
+<p align="center">
+  Have questions or need help? Reach out to our <a href="https://support.digital.ai/"><strong>Support Team</strong></a>.
+</p>
